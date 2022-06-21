@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{10DA7C4D-E730-4523-A6A2-976634DC52D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindersManagement.API", "Services\RemindersManagement\RemindersManagement.API\RemindersManagement.API.csproj", "{3ECD78DB-CC86-40A3-B885-B59EAD12EF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindersManagement.UnitTests", "Services\RemindersManagement\RemindersManagement.UnitTests\RemindersManagement.UnitTests.csproj", "{B9E811A8-F5A8-4833-AD7A-8D431B19E862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ECD78DB-CC86-40A3-B885-B59EAD12EF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECD78DB-CC86-40A3-B885-B59EAD12EF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECD78DB-CC86-40A3-B885-B59EAD12EF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECD78DB-CC86-40A3-B885-B59EAD12EF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E811A8-F5A8-4833-AD7A-8D431B19E862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E811A8-F5A8-4833-AD7A-8D431B19E862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E811A8-F5A8-4833-AD7A-8D431B19E862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E811A8-F5A8-4833-AD7A-8D431B19E862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ECD78DB-CC86-40A3-B885-B59EAD12EF86} = {10DA7C4D-E730-4523-A6A2-976634DC52D9}
+		{B9E811A8-F5A8-4833-AD7A-8D431B19E862} = {10DA7C4D-E730-4523-A6A2-976634DC52D9}
+	EndGlobalSection
+EndGlobal

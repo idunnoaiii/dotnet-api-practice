@@ -1,0 +1,4 @@
+@host=http://localhost:5277
+
+
+GET {{host}}/weatherforecast
