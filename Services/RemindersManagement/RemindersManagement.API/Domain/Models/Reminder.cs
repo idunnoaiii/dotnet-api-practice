@@ -8,6 +8,6 @@ public enum ReminderStatus
 public class Reminder
 {
     public Guid Id { get; set; }
-    public string Description { get; set; }
+    public string? Description { get; set; }
     public ReminderStatus Status { get; set; }
 }

@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RemindersManagement.API.Domain.Models;
 using RemindersManagement.API.Domain.Services;
@@ -83,7 +80,7 @@ namespace RemindersManagement.API.Controllers
             {
                 // Handle exception
                 return StatusCode(500, "A problem happened while handling your request.");
-            }            
+            }
             return reminder;
         }
     }
