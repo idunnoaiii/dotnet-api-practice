@@ -37,19 +37,19 @@ namespace RemindersManagement.API.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("89fe00ac-d931-4227-8649-b83f7333aba7"),
+                            Id = new Guid("3a56dbde-f01e-4a34-89ec-b85f585d368a"),
                             Description = "Learning Microservices",
                             Status = 1
                         },
                         new
                         {
-                            Id = new Guid("73163bee-9059-4838-a535-6d46995da7fd"),
+                            Id = new Guid("ce811a26-5562-4d02-8fe1-a3ed174e72c0"),
                             Description = "Writing Blog",
                             Status = 0
                         },
                         new
                         {
-                            Id = new Guid("338dcd20-bcc6-432e-b26d-fcc3d4d07bfe"),
+                            Id = new Guid("7b8a2f7f-9d99-4664-922b-bd7783770e2a"),
                             Description = "Presentation prepare",
                             Status = 0
                         });

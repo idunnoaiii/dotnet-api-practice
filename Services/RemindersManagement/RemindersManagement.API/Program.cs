@@ -8,11 +8,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+var folder = Environment.SpecialFolder.LocalApplicationData;
+var path = Environment.GetFolderPath(folder);
+var dbPath = System.IO.Path.Join(path, "FriendReminders.db");
 
 builder.Services.AddScoped<IRemindersRepository, RemindersRepository>();
 builder.Services.AddScoped<IRemindersService, RemindersService>();
 builder.Services.AddDbContext<RemindersDbContext>(options => {
-    options.UseSqlite("Data Source=FriendReminders.db");
+    options.UseSqlite($"Data Source={dbPath}");
 });
 
 

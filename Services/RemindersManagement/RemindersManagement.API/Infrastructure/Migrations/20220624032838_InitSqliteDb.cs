@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RemindersManagement.API.Infrastructure.Migrations
 {
-    public partial class InitCreateDB : Migration
+    public partial class InitSqliteDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -30,19 +30,19 @@ namespace RemindersManagement.API.Infrastructure.Migrations
                 schema: "reminders",
                 table: "Reminders",
                 columns: new[] { "Id", "Description", "Status" },
-                values: new object[] { new Guid("338dcd20-bcc6-432e-b26d-fcc3d4d07bfe"), "Presentation prepare", 0 });
+                values: new object[] { new Guid("3a56dbde-f01e-4a34-89ec-b85f585d368a"), "Learning Microservices", 1 });
 
             migrationBuilder.InsertData(
                 schema: "reminders",
                 table: "Reminders",
                 columns: new[] { "Id", "Description", "Status" },
-                values: new object[] { new Guid("73163bee-9059-4838-a535-6d46995da7fd"), "Writing Blog", 0 });
+                values: new object[] { new Guid("7b8a2f7f-9d99-4664-922b-bd7783770e2a"), "Presentation prepare", 0 });
 
             migrationBuilder.InsertData(
                 schema: "reminders",
                 table: "Reminders",
                 columns: new[] { "Id", "Description", "Status" },
-                values: new object[] { new Guid("89fe00ac-d931-4227-8649-b83f7333aba7"), "Learning Microservices", 1 });
+                values: new object[] { new Guid("ce811a26-5562-4d02-8fe1-a3ed174e72c0"), "Writing Blog", 0 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
